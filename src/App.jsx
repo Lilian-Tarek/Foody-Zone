@@ -12,13 +12,12 @@ function App() {
   const [food, setFood] = useState([]);
 const [allFood, setAllFood] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:9000/food")
+    fetch("/api/foods")
       .then((res) => res.json())
       .then((data) => {
         setAllFood(data);
-       setFood(data);
-      }
-    );
+        setFood(data);
+      });
   }, []);
 
   return (
