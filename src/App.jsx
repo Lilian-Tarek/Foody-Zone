@@ -12,7 +12,7 @@ function App() {
   const [food, setFood] = useState([]);
 const [allFood, setAllFood] = useState([]);
   useEffect(() => {
-    fetch("/api/food")
+    fetch("api/food")
       .then((res) => res.json())
       .then((data) => {
         setAllFood(data);
