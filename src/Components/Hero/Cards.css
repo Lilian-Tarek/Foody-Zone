@@ -1,0 +1,25 @@
+.Hero
+{
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    padding: 50px;
+    height:300vh;
+}
+.Hero .card 
+{
+    height:100%;
+   background-color: #ffffff54;
+
+   border: 1px solid red;
+
+
+}
+.Hero .card .img
+{
+    padding-left: 30px;
+}
+.Hero .card img
+{
+    height: 100px;
+ 
+}

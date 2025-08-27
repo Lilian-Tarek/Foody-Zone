@@ -1,0 +1,17 @@
+.navbar input
+{
+    border: 1px solid red;
+    border-radius: 5px;
+
+}
+@media (max-width:506px) {
+    .navbar .container
+    {
+justify-content: center !important;
+    }
+    .navbar input
+    {
+        width: 100%;
+    }
+  
+}
